@@ -7,7 +7,7 @@
 >- Intuitive user interface with separate windows for game setup and gameplay
 >- Engaging visuals and sound effects
 
-## [CODE BREAKDOWN](docs/CONTRIBUTING.md)
+## [CODE BREAKDOWN](Ladders_and_snakes.py)
 ### Mandatory imports for game
  ```
 import random
