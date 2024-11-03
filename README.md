@@ -6,3 +6,12 @@
 >- Multiplayer support for up to 4 players
 >- Intuitive user interface with separate windows for game setup and gameplay
 >- Engaging visuals and sound effects
+
+## [CODE BREAKDOWN](docs/CONTRIBUTING.md)
+### Mandatory imports for game
+ ```
+import random
+import turtle
+import time
+from pygame import mixer
+```
