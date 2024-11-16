@@ -8,13 +8,17 @@
 >- Engaging visuals and sound effects
 
 ## [CODE BREAKDOWN](Ladders_and_snakes.py)
-### Mandatory imports 
+# Imports 
  ```
 import random
 import turtle
 import time
 from pygame import mixer
 ```
+* `random`: This module is used to generate random numbers. Here, it simulates a dice roll, determining the number of steps a player moves.
+* `turtle`: The turtle module provides a simple way to create graphics and animations. In this game, it's used to draw the game board, player tokens, and other visual elements.
+* `time`: The time module is used for timing operations. It is used in the game to control the speed of animations and to delay actions.
+* `pygame.mixer`: The pygame.mixer module is used to play sound effects. In this game, it's used to play sound effects for dice rolls, player moves, and other game events.
 # Constants
 
 **Game Board Dimensions and Layout**
