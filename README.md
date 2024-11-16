@@ -45,7 +45,7 @@ from pygame import mixer
 
 **Ladders and Snakes**
 
-* **`LEDDERS_SNAKES`**: A dictionary mapping starting cell numbers to ending cell numbers for ladders and snakes.
+* **`LADDERS_SNAKES`**: A dictionary mapping starting cell numbers to ending cell numbers for ladders and snakes.
 
 ```
 sqr_size = 70
@@ -66,6 +66,6 @@ y_yellow = 0
 x_start_game = -start_buttons_size
 y_start_game = -start_buttons_size
 WINDOW_SIZE = (550, 750)
-LEDDERS_SNAKES = {5:27, 17:46, 23:42, 24:18, 32:13, 64:83, 67:46, 72:91, 73:49, 80:58, 94:76}
+LADDERS_SNAKES = {5:27, 17:46, 23:42, 24:18, 32:13, 64:83, 67:46, 72:91, 73:49, 80:58, 94:76}
 ```
 
