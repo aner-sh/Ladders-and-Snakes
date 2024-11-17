@@ -29,7 +29,7 @@ y_start_game = -start_buttons_size
 
 WINDOW_SIZE = (550, 750)
 
-LEDDERS_SNAKES = {5:27, 17:46, 23:42, 24:18, 32:13, 64:83, 67:46, 72:91, 73:49, 80:58, 94:76}
+LADDERS_SNAKES = {5:27, 17:46, 23:42, 24:18, 32:13, 64:83, 67:46, 72:91, 73:49, 80:58, 94:76}
 
 # Variables
 blue_player = False
@@ -328,9 +328,9 @@ def move_player(player, player_cell_number):
     x, y = find_next_cell_position(new_player_cell_number)
     player.goto(x,y)
 
-    if new_player_cell_number in LEDDERS_SNAKES.keys():
+    if new_player_cell_number in LADDERS_SNAKES.keys():
         time.sleep(0.5)
-        new_player_cell_number2 = LEDDERS_SNAKES[new_player_cell_number]
+        new_player_cell_number2 = LADDERS_SNAKES[new_player_cell_number]
         mixer.init()
         if new_player_cell_number2 < new_player_cell_number:
             mixer.music.load(r"slide_down.mpeg")
@@ -411,8 +411,8 @@ def register_players():
 
 def draw_board():
     bored = turtle.Turtle()
-    screen.register_shape("ledderAndSnakesBoard.gif")
-    bored.shape("ledderAndSnakesBoard.gif")
+    screen.register_shape("laddersAndSnakesBoard.gif")
+    bored.shape("laddersAndSnakesBoard.gif")
     register_players()
     dice()
     roll_write()
