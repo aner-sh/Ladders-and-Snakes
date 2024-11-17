@@ -144,3 +144,5 @@ This code block sets up the main game loop and initializes the game environment.
    ```
    turtle.mainloop()
    ```
+> [!TIP]
+> You can modify the audio and images in the game as you wish! Simply replace the files `going_up.mp3`, `ladderAndSnakesBoard.gif`, `player-blue-sl.gif`, `player-green-sl.gif`, `player-red-sl.gif`, `player-yellow-sl.gif`, `roll_dice.mpeg`, `slide_down.mpeg`, `snakesAndLadders.png` or `winning.mp3` and adapt them to your needs! The files we chose for our game can be found here, but it is important to state that they are not owned by us, so any legal implications from their use rest solely with the viewer. We thank the creators of these files for sharing them publicly for personal use.
