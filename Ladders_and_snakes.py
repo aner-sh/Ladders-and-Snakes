@@ -335,7 +335,7 @@ def move_player(player, player_cell_number):
         if new_player_cell_number2 < new_player_cell_number:
             mixer.music.load(r"slide_down.mpeg")
         else:
-            mixer.music.load(r"going_up2.mp3")
+            mixer.music.load(r"going_up.mp3")
         mixer.music.play()
         while mixer.music.get_busy():  # wait for music to finish playing
             x, y = find_next_cell_position(new_player_cell_number2)
